@@ -39,6 +39,7 @@
 		53A683AC253E7C410037F30B /* ParisMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A683AB253E7C410037F30B /* ParisMap.swift */; };
 		53A683AF253E7F660037F30B /* ParisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A683AE253E7F660037F30B /* ParisView.swift */; };
 		53C2FA582538E592000B9A91 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C2FA572538E592000B9A91 /* Image.swift */; };
+		53D1E546253F5FCA00C47998 /* ParisHeaderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53D1E545253F5FCA00C47998 /* ParisHeaderLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		53A683AB253E7C410037F30B /* ParisMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParisMap.swift; sourceTree = "<group>"; };
 		53A683AE253E7F660037F30B /* ParisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParisView.swift; sourceTree = "<group>"; };
 		53C2FA572538E592000B9A91 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		53D1E545253F5FCA00C47998 /* ParisHeaderLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParisHeaderLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				536C255425390550001C92D1 /* HeaderLabel.swift */,
+				53D1E545253F5FCA00C47998 /* ParisHeaderLabel.swift */,
 			);
 			path = Header;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				53283B212525F9F200EFFE1E /* ReLocate.xcdatamodeld in Sources */,
 				5306BEC5253DCCCE00C32501 /* HotelList.swift in Sources */,
 				538AF28525392E2D009DF872 /* ParisScreen.swift in Sources */,
+				53D1E546253F5FCA00C47998 /* ParisHeaderLabel.swift in Sources */,
 				53188801253D060E003E35F3 /* TransportLabel.swift in Sources */,
 				531887F0253D0144003E35F3 /* HotelButton.swift in Sources */,
 				5306BEC8253DCCDD00C32501 /* FoodList.swift in Sources */,
