@@ -9,12 +9,18 @@ import UIKit
 
 class ParisHeaderLabel: UILabel {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
     }
-    */
-
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        labelSetup()
+    }
+    
+    func labelSetup() {
+        self.text = "Paris"
+        self.textColor = .black
+        self.font = UIFont.systemFont(ofSize: 25, weight: .semibold)
+    }
 }
