@@ -11,7 +11,6 @@
 		5303281925368EC500E00A78 /* PlusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5303281825368EC500E00A78 /* PlusButton.swift */; };
 		5306BEC5253DCCCE00C32501 /* HotelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5306BEC4253DCCCE00C32501 /* HotelList.swift */; };
 		5306BEC8253DCCDD00C32501 /* FoodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5306BEC7253DCCDD00C32501 /* FoodList.swift */; };
-		5306BECB253DCD1000C32501 /* TransportScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5306BECA253DCD1000C32501 /* TransportScreen.swift */; };
 		531887F0253D0144003E35F3 /* HotelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531887EF253D0144003E35F3 /* HotelButton.swift */; };
 		531887F4253D0348003E35F3 /* TransportButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531887F3253D0348003E35F3 /* TransportButton.swift */; };
 		531887F7253D0483003E35F3 /* FoodButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531887F6253D0483003E35F3 /* FoodButton.swift */; };
@@ -31,6 +30,9 @@
 		536C254F2538F2B5001C92D1 /* Plus2Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536C254E2538F2B5001C92D1 /* Plus2Button.swift */; };
 		536C25522538F363001C92D1 /* BoraVacation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536C25512538F363001C92D1 /* BoraVacation.swift */; };
 		536C255525390550001C92D1 /* HeaderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 536C255425390550001C92D1 /* HeaderLabel.swift */; };
+		537F5395253FC67F00AA1B65 /* TransportImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537F5394253FC67F00AA1B65 /* TransportImage.swift */; };
+		537F5398253FC96000AA1B65 /* SmallRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537F5397253FC96000AA1B65 /* SmallRect.swift */; };
+		537F539D253FCB8000AA1B65 /* BusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 537F539C253FCB8000AA1B65 /* BusButton.swift */; };
 		53819B7F25378BBB009D4C6B /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53819B7E25378BBB009D4C6B /* LocationView.swift */; };
 		538AF27C25392B73009DF872 /* LocationView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AF27B25392B73009DF872 /* LocationView2.swift */; };
 		538AF27F25392C3C009DF872 /* ParisImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538AF27E25392C3C009DF872 /* ParisImage.swift */; };
@@ -47,7 +49,6 @@
 		5303281825368EC500E00A78 /* PlusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusButton.swift; sourceTree = "<group>"; };
 		5306BEC4253DCCCE00C32501 /* HotelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelList.swift; sourceTree = "<group>"; };
 		5306BEC7253DCCDD00C32501 /* FoodList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodList.swift; sourceTree = "<group>"; };
-		5306BECA253DCD1000C32501 /* TransportScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportScreen.swift; sourceTree = "<group>"; };
 		531887EF253D0144003E35F3 /* HotelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelButton.swift; sourceTree = "<group>"; };
 		531887F3253D0348003E35F3 /* TransportButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportButton.swift; sourceTree = "<group>"; };
 		531887F6253D0483003E35F3 /* FoodButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodButton.swift; sourceTree = "<group>"; };
@@ -69,6 +70,9 @@
 		536C254E2538F2B5001C92D1 /* Plus2Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plus2Button.swift; sourceTree = "<group>"; };
 		536C25512538F363001C92D1 /* BoraVacation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoraVacation.swift; sourceTree = "<group>"; };
 		536C255425390550001C92D1 /* HeaderLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderLabel.swift; sourceTree = "<group>"; };
+		537F5394253FC67F00AA1B65 /* TransportImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportImage.swift; sourceTree = "<group>"; };
+		537F5397253FC96000AA1B65 /* SmallRect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallRect.swift; sourceTree = "<group>"; };
+		537F539C253FCB8000AA1B65 /* BusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusButton.swift; sourceTree = "<group>"; };
 		53819B7E25378BBB009D4C6B /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		538AF27B25392B73009DF872 /* LocationView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView2.swift; sourceTree = "<group>"; };
 		538AF27E25392C3C009DF872 /* ParisImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParisImage.swift; sourceTree = "<group>"; };
@@ -165,7 +169,6 @@
 				538AF28425392E2D009DF872 /* ParisScreen.swift */,
 				5306BEC4253DCCCE00C32501 /* HotelList.swift */,
 				5306BEC7253DCCDD00C32501 /* FoodList.swift */,
-				5306BECA253DCD1000C32501 /* TransportScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				538AF27B25392B73009DF872 /* LocationView2.swift */,
 				53328C64253A772D001D49EE /* BoraView.swift */,
 				53A683AE253E7F660037F30B /* ParisView.swift */,
+				537F5397253FC96000AA1B65 /* SmallRect.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -219,11 +223,21 @@
 			children = (
 				538AF27E25392C3C009DF872 /* ParisImage.swift */,
 				53C2FA572538E592000B9A91 /* Image.swift */,
+				537F5394253FC67F00AA1B65 /* TransportImage.swift */,
 			);
 			path = Image;
 			sourceTree = "<group>";
 		};
 		534EBAE0253CFF4A00A71F7B /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				537F539B253FCB5000AA1B65 /* Transport Types */,
+				537F539A253FCB4300AA1B65 /* Common */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		537F539A253FCB4300AA1B65 /* Common */ = {
 			isa = PBXGroup;
 			children = (
 				5303281825368EC500E00A78 /* PlusButton.swift */,
@@ -233,7 +247,15 @@
 				531887F3253D0348003E35F3 /* TransportButton.swift */,
 				531887F6253D0483003E35F3 /* FoodButton.swift */,
 			);
-			path = Button;
+			path = Common;
+			sourceTree = "<group>";
+		};
+		537F539B253FCB5000AA1B65 /* Transport Types */ = {
+			isa = PBXGroup;
+			children = (
+				537F539C253FCB8000AA1B65 /* BusButton.swift */,
+			);
+			path = "Transport Types";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -308,6 +330,7 @@
 				53328C62253A7568001D49EE /* BoraMap.swift in Sources */,
 				538AF27C25392B73009DF872 /* LocationView2.swift in Sources */,
 				53188804253D0618003E35F3 /* FoodLabel.swift in Sources */,
+				537F5398253FC96000AA1B65 /* SmallRect.swift in Sources */,
 				531887F4253D0348003E35F3 /* TransportButton.swift in Sources */,
 				5303281625368C5E00E00A78 /* Map.swift in Sources */,
 				53C2FA582538E592000B9A91 /* Image.swift in Sources */,
@@ -324,8 +347,8 @@
 				5306BEC8253DCCDD00C32501 /* FoodList.swift in Sources */,
 				53328C65253A772D001D49EE /* BoraView.swift in Sources */,
 				53283B1B2525F9F200EFFE1E /* MainVC.swift in Sources */,
-				5306BECB253DCD1000C32501 /* TransportScreen.swift in Sources */,
 				536C255525390550001C92D1 /* HeaderLabel.swift in Sources */,
+				537F539D253FCB8000AA1B65 /* BusButton.swift in Sources */,
 				53283B172525F9F200EFFE1E /* AppDelegate.swift in Sources */,
 				538AF27F25392C3C009DF872 /* ParisImage.swift in Sources */,
 				53A683AF253E7F660037F30B /* ParisView.swift in Sources */,
@@ -336,6 +359,7 @@
 				5334EEC9253DDFF500D55744 /* HotelCell.swift in Sources */,
 				5303281925368EC500E00A78 /* PlusButton.swift in Sources */,
 				531887FE253D0606003E35F3 /* HotelLabel.swift in Sources */,
+				537F5395253FC67F00AA1B65 /* TransportImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

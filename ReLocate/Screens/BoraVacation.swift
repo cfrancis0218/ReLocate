@@ -32,19 +32,12 @@ class BoraVacation: UIViewController {
         labelSetup()
         
         hotelButton.addTarget(self, action: #selector(moveHotel), for: .touchUpInside)
-        transportButton.addTarget(self, action: #selector(moveTransport), for: .touchUpInside)
-        foodButton.addTarget(self, action: #selector(moveFood), for: .touchUpInside)
     }
     
     @objc func moveHotel() {
         self.navigationController?.pushViewController(HotelList(), animated: true)
     }
-    @objc func moveTransport() {
-        self.navigationController?.pushViewController(TransportScreen(), animated: true)
-    }
-    @objc func moveFood() {
-        self.navigationController?.pushViewController(FoodList(), animated: true)
-    }
+
     
     func mapSetup() {
         map.center = CGPoint(x: 0, y: 0)
