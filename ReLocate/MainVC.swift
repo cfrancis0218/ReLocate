@@ -11,13 +11,22 @@ import MapKit
 class MainVC: UIViewController {
     
     // MARK: Components
-    var plus = PlusButton()
+    
+    // Views
     var topView = LocationView()
     var secondView = LocationView2()
-    var parisImage = ParisImage(frame: CGRect(x: 0, y: 0, width: 400, height: 825))
+    var torontoView = LocationView3()
+    
+    // Buttons
+    var plus = PlusButton()
     var plus2 = Plus2Button()
     var plus3 = RainButton()
+    var smokeBV = SmokeButton()
+    
+    // Images
     var image = UIImage(named: "exterior")
+    var parisImage = ParisImage(frame: CGRect(x: 0, y: 0, width: 400, height: 825))
+    var torontoImage = TorontoImage(frame: CGRect(x: 0, y: 0, width: 400, height: 826))
     var boraImage = Image(frame: CGRect(x: 0, y: 0, width: 400, height: 825))
     
     
@@ -41,6 +50,12 @@ class MainVC: UIViewController {
         
         // Button3 Setup Fucntion Call
         buttonView3()
+        
+        // TorontoView Setup
+        TorontoViewStyle()
+        
+        // Smoke Button
+        smokeView3()
     }
     
     // MARK: Screen Setup
@@ -99,6 +114,31 @@ class MainVC: UIViewController {
         plus3.addTarget(self, action: #selector(BookFlight2), for: .touchUpInside)
     }
     
+    // MARK: Smoke Button
+    func smokeView3() {
+        
+        // Setup
+        smokeBV.center = CGPoint(x: 0, y: 0)
+        smokeBV = SmokeButton(frame: CGRect(x: 0, y: 0, width: 400, height: 825))
+        self.view.addSubview(smokeBV)
+        
+        // Constraints
+        smokeBV.translatesAutoresizingMaskIntoConstraints = false
+        smokeBV.topAnchor.constraint(equalTo: view.topAnchor, constant: 475).isActive = true
+        smokeBV.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 290).isActive = true
+        smokeBV.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20).isActive = true
+        smokeBV.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -150).isActive = true
+        
+        // Smoke Button Target
+        smokeBV.addTarget(self, action: #selector(viewToronto), for: .touchUpInside)
+        
+    }
+    
+    // MARK: viewToronto
+    @objc func viewToronto() {
+        self.navigationController?.pushViewController(TorontoScreen(), animated: true)
+    }
+    
     // MARK: Objc bookAction Setup
     @objc func BookFlight2() {
         self.navigationController?.pushViewController(ParisScreen(), animated: true)
@@ -107,14 +147,20 @@ class MainVC: UIViewController {
     // MARK: Objc tapAction Setup
     @objc func tapAction() {
         
-        // Hidden Init
+        // MARK: BoraBora Hidden
         topView.isHidden = false
         boraImage.isHidden = false
         plus2.isHidden = false
         
+        // MARK: Paris Hidden
         secondView.isHidden = false
         parisImage.isHidden = false
         plus3.isHidden = false
+        
+        // MARK: Toronto Hidden
+        torontoView.isHidden = false
+        torontoImage.isHidden = false
+        smokeBV.isHidden = false
         
         // MARK: Animations
         LocationView.animate(withDuration: 0.68, delay: 0.01, options: .curveEaseIn, animations: ({
@@ -127,6 +173,12 @@ class MainVC: UIViewController {
             self.secondView.center.y += 400
             self.parisImage.center.y += 400
             self.plus3.center.y += 400
+        }))
+        
+        LocationView3.animate(withDuration: 0.68, delay: 0.01, options: .curveEaseIn, animations: ({
+            self.torontoView.center.y += 800
+            self.torontoImage.center.y += 800
+            self.smokeBV.center.y += 800
         }))
         
     }
@@ -173,6 +225,28 @@ class MainVC: UIViewController {
         secondView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20).isActive = true
         secondView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20).isActive = true
         secondView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -350).isActive = true
+    }
+    
+    // MARK: TorontoViewStyle Setup
+    func TorontoViewStyle() {
+        torontoView.center = CGPoint(x: 0, y: 0)
+        torontoView = LocationView3(frame: CGRect(x: 0, y: 0, width: 400, height: 825))
+        torontoImage = TorontoImage(frame: CGRect(x: 0, y: 0, width: 400, height: 825))
+        torontoImage.center = CGPoint(x: 0, y: 0)
+        self.view.addSubview(torontoView)
+        self.view.addSubview(torontoImage)
+        
+        torontoImage.translatesAutoresizingMaskIntoConstraints = false
+        torontoImage.topAnchor.constraint(equalTo: view.topAnchor, constant: 475).isActive = true
+        torontoImage.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20).isActive = true
+        torontoImage.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20).isActive = true
+        torontoImage.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -150).isActive = true
+        
+        torontoView.translatesAutoresizingMaskIntoConstraints = false
+        torontoView.topAnchor.constraint(equalTo: view.topAnchor, constant: 475).isActive = true
+        torontoView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20).isActive = true
+        torontoView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -20).isActive = true
+        torontoView.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -150).isActive = true
     }
 
 }

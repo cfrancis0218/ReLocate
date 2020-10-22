@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5303281625368C5E00E00A78 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5303281525368C5E00E00A78 /* Map.swift */; };
 		5303281925368EC500E00A78 /* PlusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5303281825368EC500E00A78 /* PlusButton.swift */; };
 		5306BEC5253DCCCE00C32501 /* HotelList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5306BEC4253DCCCE00C32501 /* HotelList.swift */; };
 		5306BEC8253DCCDD00C32501 /* FoodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5306BEC7253DCCDD00C32501 /* FoodList.swift */; };
+		5316F234254110DC00F28369 /* LocationView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5316F233254110DC00F28369 /* LocationView3.swift */; };
+		5316F2372541122200F28369 /* TorontoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5316F2362541122200F28369 /* TorontoImage.swift */; };
+		5316F23A2541130B00F28369 /* SmokeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5316F2392541130B00F28369 /* SmokeButton.swift */; };
+		5316F23E254116FC00F28369 /* TorontoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5316F23D254116FB00F28369 /* TorontoScreen.swift */; };
+		5316F2432541176A00F28369 /* TorontoMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5316F2422541176A00F28369 /* TorontoMap.swift */; };
+		5316F2462541186700F28369 /* TorontoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5316F2452541186700F28369 /* TorontoView.swift */; };
+		5316F2492541194C00F28369 /* TorontoHeaderLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5316F2482541194C00F28369 /* TorontoHeaderLabel.swift */; };
 		531887F0253D0144003E35F3 /* HotelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531887EF253D0144003E35F3 /* HotelButton.swift */; };
 		531887F4253D0348003E35F3 /* TransportButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531887F3253D0348003E35F3 /* TransportButton.swift */; };
 		531887F7253D0483003E35F3 /* FoodButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 531887F6253D0483003E35F3 /* FoodButton.swift */; };
@@ -45,10 +51,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5303281525368C5E00E00A78 /* Map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
 		5303281825368EC500E00A78 /* PlusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusButton.swift; sourceTree = "<group>"; };
 		5306BEC4253DCCCE00C32501 /* HotelList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelList.swift; sourceTree = "<group>"; };
 		5306BEC7253DCCDD00C32501 /* FoodList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodList.swift; sourceTree = "<group>"; };
+		5316F233254110DC00F28369 /* LocationView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView3.swift; sourceTree = "<group>"; };
+		5316F2362541122200F28369 /* TorontoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorontoImage.swift; sourceTree = "<group>"; };
+		5316F2392541130B00F28369 /* SmokeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokeButton.swift; sourceTree = "<group>"; };
+		5316F23D254116FB00F28369 /* TorontoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorontoScreen.swift; sourceTree = "<group>"; };
+		5316F2422541176A00F28369 /* TorontoMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorontoMap.swift; sourceTree = "<group>"; };
+		5316F2452541186700F28369 /* TorontoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorontoView.swift; sourceTree = "<group>"; };
+		5316F2482541194C00F28369 /* TorontoHeaderLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorontoHeaderLabel.swift; sourceTree = "<group>"; };
 		531887EF253D0144003E35F3 /* HotelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelButton.swift; sourceTree = "<group>"; };
 		531887F3253D0348003E35F3 /* TransportButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportButton.swift; sourceTree = "<group>"; };
 		531887F6253D0483003E35F3 /* FoodButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodButton.swift; sourceTree = "<group>"; };
@@ -95,6 +107,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5316F23C254116D700F28369 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				5306BEC4253DCCCE00C32501 /* HotelList.swift */,
+				5306BEC7253DCCDD00C32501 /* FoodList.swift */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
 		531887EE253D011E003E35F3 /* Label */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,10 +186,10 @@
 		533C6521253689BE00ED44F5 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				5316F23C254116D700F28369 /* Misc */,
 				536C25512538F363001C92D1 /* BoraVacation.swift */,
 				538AF28425392E2D009DF872 /* ParisScreen.swift */,
-				5306BEC4253DCCCE00C32501 /* HotelList.swift */,
-				5306BEC7253DCCDD00C32501 /* FoodList.swift */,
+				5316F23D254116FB00F28369 /* TorontoScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -190,9 +211,9 @@
 		534EBADB253CFF0400A71F7B /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				5303281525368C5E00E00A78 /* Map.swift */,
 				53328C61253A7568001D49EE /* BoraMap.swift */,
 				53A683AB253E7C410037F30B /* ParisMap.swift */,
+				5316F2422541176A00F28369 /* TorontoMap.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -205,6 +226,8 @@
 				53328C64253A772D001D49EE /* BoraView.swift */,
 				53A683AE253E7F660037F30B /* ParisView.swift */,
 				537F5397253FC96000AA1B65 /* SmallRect.swift */,
+				5316F233254110DC00F28369 /* LocationView3.swift */,
+				5316F2452541186700F28369 /* TorontoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -214,6 +237,7 @@
 			children = (
 				536C255425390550001C92D1 /* HeaderLabel.swift */,
 				53D1E545253F5FCA00C47998 /* ParisHeaderLabel.swift */,
+				5316F2482541194C00F28369 /* TorontoHeaderLabel.swift */,
 			);
 			path = Header;
 			sourceTree = "<group>";
@@ -224,6 +248,7 @@
 				538AF27E25392C3C009DF872 /* ParisImage.swift */,
 				53C2FA572538E592000B9A91 /* Image.swift */,
 				537F5394253FC67F00AA1B65 /* TransportImage.swift */,
+				5316F2362541122200F28369 /* TorontoImage.swift */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -242,6 +267,7 @@
 			children = (
 				5303281825368EC500E00A78 /* PlusButton.swift */,
 				538AF28125392D78009DF872 /* RainButton.swift */,
+				5316F2392541130B00F28369 /* SmokeButton.swift */,
 				536C254E2538F2B5001C92D1 /* Plus2Button.swift */,
 				531887EF253D0144003E35F3 /* HotelButton.swift */,
 				531887F3253D0348003E35F3 /* TransportButton.swift */,
@@ -331,8 +357,8 @@
 				538AF27C25392B73009DF872 /* LocationView2.swift in Sources */,
 				53188804253D0618003E35F3 /* FoodLabel.swift in Sources */,
 				537F5398253FC96000AA1B65 /* SmallRect.swift in Sources */,
+				5316F2492541194C00F28369 /* TorontoHeaderLabel.swift in Sources */,
 				531887F4253D0348003E35F3 /* TransportButton.swift in Sources */,
-				5303281625368C5E00E00A78 /* Map.swift in Sources */,
 				53C2FA582538E592000B9A91 /* Image.swift in Sources */,
 				538AF28225392D78009DF872 /* RainButton.swift in Sources */,
 				536C254F2538F2B5001C92D1 /* Plus2Button.swift in Sources */,
@@ -342,24 +368,30 @@
 				5306BEC5253DCCCE00C32501 /* HotelList.swift in Sources */,
 				538AF28525392E2D009DF872 /* ParisScreen.swift in Sources */,
 				53D1E546253F5FCA00C47998 /* ParisHeaderLabel.swift in Sources */,
+				5316F2432541176A00F28369 /* TorontoMap.swift in Sources */,
 				53188801253D060E003E35F3 /* TransportLabel.swift in Sources */,
 				531887F0253D0144003E35F3 /* HotelButton.swift in Sources */,
 				5306BEC8253DCCDD00C32501 /* FoodList.swift in Sources */,
+				5316F23E254116FC00F28369 /* TorontoScreen.swift in Sources */,
 				53328C65253A772D001D49EE /* BoraView.swift in Sources */,
+				5316F2462541186700F28369 /* TorontoView.swift in Sources */,
 				53283B1B2525F9F200EFFE1E /* MainVC.swift in Sources */,
 				536C255525390550001C92D1 /* HeaderLabel.swift in Sources */,
 				537F539D253FCB8000AA1B65 /* BusButton.swift in Sources */,
 				53283B172525F9F200EFFE1E /* AppDelegate.swift in Sources */,
 				538AF27F25392C3C009DF872 /* ParisImage.swift in Sources */,
+				5316F2372541122200F28369 /* TorontoImage.swift in Sources */,
 				53A683AF253E7F660037F30B /* ParisView.swift in Sources */,
 				536C25522538F363001C92D1 /* BoraVacation.swift in Sources */,
 				53819B7F25378BBB009D4C6B /* LocationView.swift in Sources */,
 				53283B192525F9F200EFFE1E /* SceneDelegate.swift in Sources */,
 				5334EECE253DE26B00D55744 /* HotelData.swift in Sources */,
 				5334EEC9253DDFF500D55744 /* HotelCell.swift in Sources */,
+				5316F23A2541130B00F28369 /* SmokeButton.swift in Sources */,
 				5303281925368EC500E00A78 /* PlusButton.swift in Sources */,
 				531887FE253D0606003E35F3 /* HotelLabel.swift in Sources */,
 				537F5395253FC67F00AA1B65 /* TransportImage.swift in Sources */,
+				5316F234254110DC00F28369 /* LocationView3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
